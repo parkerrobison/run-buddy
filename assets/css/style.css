@@ -11,26 +11,29 @@ body {
   }
 
 /* apply styles to <header>*/
+/*21 & 33 were replaced by display:flex to create a flexbox.*/
   header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
+/*removed display:inline from here*/
 header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
-    margin:0;
-    display: inline;
+    margin:0; 
 }
 
 header a {
     text-decoration: none;
     color: #fce138;
 }
-
+/*removed float:right from here*/
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
